@@ -80,13 +80,11 @@ Você pode instalar as dependências utilizando o comando:
 ## Estrutura do Projeto
 
 ```bash
-    analisador-dados-redes-sociais/
+    social-media_analyzer/
     │
-    ├── analisador_redes_sociais.py   # Script principal
-    ├── exemplos/
-    │   └── exemplo_dados.csv         # Exemplo de arquivo de dados
+    ├── social-media_analyzer.py   # Script principal         # Exemplo de arquivo de dados
     ├── README.md                     # Documentação do projeto
-    └── requirements.txt              # Dependências do projeto
+    └── LICENSE             # Licença do projeto
 ```
 
 ## Expansões Futuras
