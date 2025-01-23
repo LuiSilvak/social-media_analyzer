@@ -83,8 +83,8 @@ Você pode instalar as dependências utilizando o comando:
     social-media_analyzer/
     │
     ├── social-media_analyzer.py   # Script principal         # Exemplo de arquivo de dados
-    ├── README.md                     # Documentação do projeto
-    └── LICENSE             # Licença do projeto
+    ├── README.md                  # Documentação do projeto
+    └── LICENSE                    # Licença do projeto
 ```
 
 ## Expansões Futuras

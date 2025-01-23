@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # Dados simulados de interações em redes sociais
 data = {
     "Post-ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
@@ -16,7 +15,6 @@ data = {
     "Comments": [15, 30, 25, 40, 35, 50, 45, 30, 20, 10],
     "Shares": [10, 20, 15, 25, 20, 30, 25, 20, 15, 5],
 }
-
 
 # Criando um DataFrame
 df = pd.DataFrame(data)
@@ -35,7 +33,6 @@ print(df.describe())
 most_engaging_post = df.loc[df["Total_Engagement"].idxmax()]
 print("\n Postagem com maior engajamento: ")
 print(most_engaging_post)
-
 
 # Visualização: Gráfico de engajamento total ao longo do tempo
 plt.figure(figsize=(10, 6))
